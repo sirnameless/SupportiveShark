@@ -1,0 +1,20 @@
+-- build.settings
+
+settings = 
+{
+	orientation = 
+	{
+		default="landscapeRight"
+	},
+	iphone = 
+	{
+		UIStatusBarHidden=true,
+		plist = 
+		{
+			UIAppFonts =
+			{
+		    	"VAGRounded.TTF",
+			},
+		},
+	},
+}
